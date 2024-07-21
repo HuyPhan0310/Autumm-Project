@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <script src="https://kit.fontawesome.com/6f0827f4d6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+    <div id="ten-web"><h1 class="ten">DU LỊCH VÀ ẨM THỰC BỐN PHƯƠNG</h1></div>
+    <div id="nav">
+        <div class="danhmuc">
+            <a href="Trangchu.html"><i class="fa-solid fa-house" style="margin-right: 5px;"></i>Trang Chủ</a>
+        </div>
+        <div class="danhmuc">
+            <a href="Monan.html"><i class="fa-solid fa-bowl-food" style="margin-right: 5px;"></i>Món ăn</a>
+        </div>
+        <div class="danhmuc">
+            <a href="dulich.html"><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i>Điểm đến</a>
+        </div>
+        <div class="danhmuc">
+            <a href="Aboutme.html"><i class="fa-regular fa-user" style="margin-right: 5px;"></i>Về Tôi</a>
+        </div>
+        <div id="dangnhap" class="danhmuc">
+            <a href="dangnhap.html"><i class="fa-regular fa-circle-user" style="margin-right: 5px;"></i>Đăng Nhập</a>
+        </div>
+    </div>
+    <div id="slidesshow">
+        <img class="slides" src="Image/du lich mua thu.jpg" alt="" width="100%" height="1000px">
+        <img class="slides" src="Image/du lich mua thu2.jpg" alt="" width="100%" height="1000px">
+        <img class="slides" src="Image/du lich mua thu 3.jpg" alt="" width="100%" height="1000px">
+        <img class="slides" src="Image/du lich mua thu 4.jpg" alt="" width="100%" height="1000px">
+        <img class="slides" src="Image/du lich mua thu 5.jpg" alt="" width="100%" height="1000px">
+    </div>
+    <div id="article">
+        <a href="Trangchu.html"><i class="fa-solid fa-house" style="margin-right: 5px; font-size: larger;"></i>Trang Chủ</a>
+        <p style="padding-left: 175px; font-size: larger;">Những bài viết:</p>
+        <div id="baiviet">
+            <div id="bai1">
+                <a href="Monan.html" class="bài">
+                    <img class="anh-minh-hoa" src="Image/ảnh minh họa cho bài viết.jpg" alt="">
+                    <h4 class="tieude">TOP 7 Những Món Ăn Mùa Thu Mà Bạn "Không Nên" Bỏ Qua</h4>
+                </a>
+            </div>
+            <hr style="margin: 0px 450px 0px 100px;">
+            <div id="bai2">
+                <a href="dulich.html" class="bài">
+                    <img class="anh-minh-hoa" src="Image/ảnh minh họa cho bài viết 2.jpg" alt="">
+                    <h4 class="tieude">TOP Những Địa Điểm Du Lịch Vào Mùa Thu Mà Bạn "Không Nên" Bỏ Qua</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="end">
+        <h1>LIÊN HỆ</h1>
+        <div class="contact">
+            <div id="a">
+                <i class="fa fa-map-marker" style="width:30px"></i> Dĩ An, VN<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: +84 0000000000<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+            </div>
+            <form>
+                <div id="b">
+                  <div>
+                    <input class="place1" type="text" placeholder="Name" required name="Name">
+                  </div>
+                  <div>
+                    <input class="place1" type="text" placeholder="Email" required name="Email">
+                  </div>
+                </div>
+                <input class="place2" type="text" placeholder="Message" required name="Message"><br>
+                <button type="submit" style="height: 30px; margin-top:10px ; border-radius: 25px; background-color: chocolate;">SEND</button>
+              </form>
+        </div>
+        <div class="icon">
+            <img src="Image/icon_facebook.png" alt="">
+            <img src="Image/icon_twitter.png" alt="">
+            <img src="Image/icon_youtube.png" alt="">
+            <img src="Image/icon_tiktok.png" alt="">
+            <img src="Image/icon_zalo.png" alt="">
+            <img src="Image/icon_in.png" alt="">
+            <img src="Image/icon_telegram.png" alt="">
+        </div>
+    </div>
+    <script>
+        w3.slideshow(".slides", 2000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+html body{
+    margin: 0px;
+}
+#ten-web {
+    background-color: #f0dc43;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150px;
+    font-style: normal;
+    padding: 10px 0px 15px 0px;
+    color: rgb(34, 128, 156);
+}
+.ten{
+    font-size: 50px;
+}
+#nav {
+    display: flex;
+    font-size: medium;
+    background-color: rgb(85, 249, 255);
+    text-align: center;
+}
+.danhmuc {
+    text-align: center;
+    margin: 20px;
+}
+#dangnhap {
+    text-align: center;
+    margin: 20px;
+}
+#end{
+    background-color: #f0dc43;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1{
+    text-align: center;
+}
+#a{
+margin-left: 400px;
+}
+.contact{
+    display: flex;
+    margin: 25px;
+}
+#b{
+    display: flex;
+}
+form{
+margin-left: 30%;}
+.place1{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.place2{
+    width: 417px;
+    height: 20px;
+}
+.icon{
+text-align: center;}
+h1{
+    font-family: "Quicksand", sans-serif;
+}
+p{
+    text-align: center;
+    margin:50px 200px 50px 200px ;
+    justify-content: center;
+}
+.anh{
+    width: max-content;
+}

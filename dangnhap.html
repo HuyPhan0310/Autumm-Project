@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <script src="https://kit.fontawesome.com/6f0827f4d6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="ten-web"><h1 class="ten">DU LỊCH VÀ ẨM THỰC BỐN PHƯƠNG</h1></div>
+    <div id="nav">
+        <div class="danhmuc">
+            <a href="Trangchu.html"><i class="fa-solid fa-house" style="margin-right: 5px;"></i>Trang Chủ</a>
+        </div>
+        <div class="danhmuc">
+            <a href="Monan.html"><i class="fa-solid fa-bowl-food" style="margin-right: 5px;"></i>Món ăn</a>
+        </div>
+        <div class="danhmuc">
+            <a href="dulich.html"><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i>Điểm đến</a>
+        </div>
+        <div class="danhmuc">
+            <a href="Aboutme.html"><i class="fa-regular fa-user" style="margin-right: 5px;"></i>Về Tôi</a>
+        </div>
+        <div id="dangnhap" class="danhmuc">
+            <a href="dangnhap.html"><i class="fa-regular fa-circle-user" style="margin-right: 5px;"></i>Đăng Nhập</a>
+        </div>
+    </div>
+    <h1>Đăng Nhập</h1>
+    <form name="form" onsubmit="return xacnhan()" method="post" id="form">
+        Họ Và Tên
+        <input type="text" name="hoten" placeholder="Nhập Họ Và Tên" class="vungchuadulieu"> <br>
+        Email
+        <input type="text" name="email" id="" placeholder="ex: mail@gmail.com"><br>
+        Số Điện Thoại 
+        <input type="text" name="sdt" placeholder="Tối Đa 10 Số" class="vungchuadulieu"> <br>
+        Giới Tính 
+        <select name="" id="gioitinh" class="vungchuadulieu">
+            <option value="">Chọn</option>
+            <option value="">Nam</option>
+            <option value="">Nữ</option>
+        </select> <br>
+        <a href="Trangchu.html"><div id="vungchuanut"><input type="submit" id="nutsubmit" value="Xác Nhận"></div></a>
+    </form>
+</body>
+</html>
